@@ -3,8 +3,10 @@ auth:
     username: USERNAME
     password: PASSWORD
 images:
-  elasticsearch: registry.cn-hangzhou.aliyuncs.com/synchub/elasticsearch
-  nginx: registry.cn-hangzhou.aliyuncs.com/synchub/nginx
+  #elasticsearch: registry.cn-hangzhou.aliyuncs.com/synchub/elasticsearch
+  #nginx: registry.cn-hangzhou.aliyuncs.com/synchub/nginx
+  prom/mysqld-exporter: registry.cn-hangzhou.aliyuncs.com/synchub/prom-mysqld-exporter
+  otel/opentelemetry-collector: registry.cn-hangzhou.aliyuncs.com/synchub/otel-opentelemetry-collector
   #gcr.io/kubebuilder/kube-rbac-proxy: registry.cn-hangzhou.aliyuncs.com/synchub/kube-rbac-proxy
   #registry.k8s.io/kube-state-metrics/kube-state-metrics: registry.cn-hangzhou.aliyuncs.com/synchub/kube-state-metrics
   #registry.k8s.io/ingress-nginx/kube-webhook-certgen: registry.cn-hangzhou.aliyuncs.com/synchub/kube-webhook-certgen
