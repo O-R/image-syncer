@@ -3,7 +3,8 @@ auth:
     username: USERNAME
     password: PASSWORD
 images:
-  rabbitmq: registry.cn-hangzhou.aliyuncs.com/synchub/rabbitmq
+  elasticsearch: registry.cn-hangzhou.aliyuncs.com/synchub/elasticsearch
+  nginx: registry.cn-hangzhou.aliyuncs.com/synchub/nginx
   #gcr.io/kubebuilder/kube-rbac-proxy: registry.cn-hangzhou.aliyuncs.com/synchub/kube-rbac-proxy
   #registry.k8s.io/kube-state-metrics/kube-state-metrics: registry.cn-hangzhou.aliyuncs.com/synchub/kube-state-metrics
   #registry.k8s.io/ingress-nginx/kube-webhook-certgen: registry.cn-hangzhou.aliyuncs.com/synchub/kube-webhook-certgen
