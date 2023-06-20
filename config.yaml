@@ -5,7 +5,7 @@ auth:
 images:
   #elasticsearch: registry.cn-hangzhou.aliyuncs.com/synchub/elasticsearch
   #nginx: registry.cn-hangzhou.aliyuncs.com/synchub/nginx
-  kibana: registry.cn-hangzhou.aliyuncs.com/synchub/kibana
+  #kibana: registry.cn-hangzhou.aliyuncs.com/synchub/kibana
   mysql: registry.cn-hangzhou.aliyuncs.com/synchub/mysql
   #prom/mysqld-exporter: registry.cn-hangzhou.aliyuncs.com/synchub/prom-mysqld-exporter
   #otel/opentelemetry-collector: registry.cn-hangzhou.aliyuncs.com/synchub/otel-opentelemetry-collector
