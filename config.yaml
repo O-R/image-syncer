@@ -5,7 +5,7 @@ auth:
 images:
   us-central1-docker.pkg.dev/bank-of-anthos-ci/bank-of-anthos/accounts-db: registry.cn-hangzhou.aliyuncs.com/synchub/bank-of-anthos-accounts-db
   us-central1-docker.pkg.dev/bank-of-anthos-ci/bank-of-anthos/balancereader: registry.cn-hangzhou.aliyuncs.com/synchub/bank-of-anthos-balancereader
-  us-central1-docker.pkg.dev/bank-of-anthos-ci/bank-of-anthos/contacts: registry.cn-hangzhou.aliyuncs.com/synchub/bank-of-anthos-contactsb
+  us-central1-docker.pkg.dev/bank-of-anthos-ci/bank-of-anthos/contacts: registry.cn-hangzhou.aliyuncs.com/synchub/bank-of-anthos-contacts
   us-central1-docker.pkg.dev/bank-of-anthos-ci/bank-of-anthos/frontend: registry.cn-hangzhou.aliyuncs.com/synchub/bank-of-anthos-frontend
   us-central1-docker.pkg.dev/bank-of-anthos-ci/bank-of-anthos/ledger-db: registry.cn-hangzhou.aliyuncs.com/synchub/bank-of-anthos-ledger-db
   us-central1-docker.pkg.dev/bank-of-anthos-ci/bank-of-anthos/ledgerwriter: registry.cn-hangzhou.aliyuncs.com/synchub/bank-of-anthos-ledgerwriter
