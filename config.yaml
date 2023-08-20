@@ -3,15 +3,15 @@ auth:
     username: USERNAME
     password: PASSWORD
 images:
-  gcr.io/bank-of-anthos-ci/bank-of-anthos/accounts-db: registry.cn-hangzhou.aliyuncs.com/synchub/bank-of-anthos-accounts-db
-  gcr.io/bank-of-anthos-ci/bank-of-anthos/balancereader: registry.cn-hangzhou.aliyuncs.com/synchub/bank-of-anthos-balancereader
-  gcr.io/bank-of-anthos-ci/bank-of-anthos/contacts: registry.cn-hangzhou.aliyuncs.com/synchub/bank-of-anthos-contactsb
-  gcr.io/bank-of-anthos-ci/bank-of-anthos/frontend: registry.cn-hangzhou.aliyuncs.com/synchub/bank-of-anthos-frontend
-  gcr.io/bank-of-anthos-ci/bank-of-anthos/ledger-db: registry.cn-hangzhou.aliyuncs.com/synchub/bank-of-anthos-ledger-db
-  gcr.io/bank-of-anthos-ci/bank-of-anthos/ledgerwriter: registry.cn-hangzhou.aliyuncs.com/synchub/bank-of-anthos-ledgerwriter
-  gcr.io/bank-of-anthos-ci/bank-of-anthos/loadgenerator: registry.cn-hangzhou.aliyuncs.com/synchub/bank-of-anthos-loadgenerator
-  gcr.io/bank-of-anthos-ci/bank-of-anthos/transactionhistory: registry.cn-hangzhou.aliyuncs.com/synchub/bank-of-anthos-transactionhistory
-  gcr.io/bank-of-anthos-ci/bank-of-anthos/userservice: registry.cn-hangzhou.aliyuncs.com/synchub/bank-of-anthos-userservice
+  us-central1-docker.pkg.dev/bank-of-anthos-ci/bank-of-anthos/accounts-db: registry.cn-hangzhou.aliyuncs.com/synchub/bank-of-anthos-accounts-db
+  us-central1-docker.pkg.dev/bank-of-anthos-ci/bank-of-anthos/balancereader: registry.cn-hangzhou.aliyuncs.com/synchub/bank-of-anthos-balancereader
+  us-central1-docker.pkg.dev/bank-of-anthos-ci/bank-of-anthos/contacts: registry.cn-hangzhou.aliyuncs.com/synchub/bank-of-anthos-contactsb
+  us-central1-docker.pkg.dev/bank-of-anthos-ci/bank-of-anthos/frontend: registry.cn-hangzhou.aliyuncs.com/synchub/bank-of-anthos-frontend
+  us-central1-docker.pkg.dev/bank-of-anthos-ci/bank-of-anthos/ledger-db: registry.cn-hangzhou.aliyuncs.com/synchub/bank-of-anthos-ledger-db
+  us-central1-docker.pkg.dev/bank-of-anthos-ci/bank-of-anthos/ledgerwriter: registry.cn-hangzhou.aliyuncs.com/synchub/bank-of-anthos-ledgerwriter
+  us-central1-docker.pkg.dev/bank-of-anthos-ci/bank-of-anthos/loadgenerator: registry.cn-hangzhou.aliyuncs.com/synchub/bank-of-anthos-loadgenerator
+  us-central1-docker.pkg.dev/bank-of-anthos-ci/bank-of-anthos/transactionhistory: registry.cn-hangzhou.aliyuncs.com/synchub/bank-of-anthos-transactionhistory
+  us-central1-docker.pkg.dev/bank-of-anthos-ci/bank-of-anthos/userservice: registry.cn-hangzhou.aliyuncs.com/synchub/bank-of-anthos-userservice
   #ghcr.io/open-telemetry/opentelemetry-operator/opentelemetry-operator: registry.cn-hangzhou.aliyuncs.com/synchub/opentelemetry-operator
   #ghcr.io/open-telemetry/opentelemetry-operator/autoinstrumentation-java: registry.cn-hangzhou.aliyuncs.com/synchub/autoinstrumentation-java
   #ghcr.io/open-telemetry/opentelemetry-operator/autoinstrumentation-nodejs: registry.cn-hangzhou.aliyuncs.com/synchub/autoinstrumentation-nodejs
