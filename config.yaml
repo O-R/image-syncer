@@ -56,4 +56,3 @@ images:
   #k8s.gcr.io/node-problem-detector/node-problem-detector: registry.cn-hangzhou.aliyuncs.com/synchub/node-problem-detector
   #kubesphere/kube-proxy: registry.cn-hangzhou.aliyuncs.com/synchub/kube-proxy
   
-  
