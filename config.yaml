@@ -3,12 +3,13 @@ auth:
     username: USERNAME
     password: PASSWORD
 images:
-  docker.io/istio/examples-bookinfo-details-v1: registry.cn-hangzhou.aliyuncs.com/synchub/istio-examples-bookinfo-details-v1
-  docker.io/istio/examples-bookinfo-reviews-v1: registry.cn-hangzhou.aliyuncs.com/synchub/istio-examples-bookinfo-reviews-v1
-  docker.io/istio/examples-bookinfo-reviews-v2: registry.cn-hangzhou.aliyuncs.com/synchub/istio-examples-bookinfo-reviews-v2
-  docker.io/istio/examples-bookinfo-reviews-v3: registry.cn-hangzhou.aliyuncs.com/synchub/istio-examples-bookinfo-reviews-v3
-  docker.io/istio/examples-bookinfo-productpage-v1: registry.cn-hangzhou.aliyuncs.com/synchub/istio-examples-bookinfo-productpage-v1
-  docker.io/istio/examples-bookinfo-ratings-v1: registry.cn-hangzhou.aliyuncs.com/synchub/istio-examples-bookinfo-ratings-v1
+  apachesuperset.docker.scarf.sh/apache/superset: registry.cn-hangzhou.aliyuncs.com/synchub/apache-superset
+  #docker.io/istio/examples-bookinfo-details-v1: registry.cn-hangzhou.aliyuncs.com/synchub/istio-examples-bookinfo-details-v1
+  #docker.io/istio/examples-bookinfo-reviews-v1: registry.cn-hangzhou.aliyuncs.com/synchub/istio-examples-bookinfo-reviews-v1
+  #docker.io/istio/examples-bookinfo-reviews-v2: registry.cn-hangzhou.aliyuncs.com/synchub/istio-examples-bookinfo-reviews-v2
+  #docker.io/istio/examples-bookinfo-reviews-v3: registry.cn-hangzhou.aliyuncs.com/synchub/istio-examples-bookinfo-reviews-v3
+  #docker.io/istio/examples-bookinfo-productpage-v1: registry.cn-hangzhou.aliyuncs.com/synchub/istio-examples-bookinfo-productpage-v1
+  #docker.io/istio/examples-bookinfo-ratings-v1: registry.cn-hangzhou.aliyuncs.com/synchub/istio-examples-bookinfo-ratings-v1
   #registry.k8s.io/prometheus-adapter/prometheus-adapter: registry.cn-hangzhou.aliyuncs.com/synchub/prometheus-adapter
   #gcr.io/bank-of-anthos/accounts-db: registry.cn-hangzhou.aliyuncs.com/synchub/bank-of-anthos-accounts-db
   #gcr.io/bank-of-anthos/balancereader: registry.cn-hangzhou.aliyuncs.com/synchub/bank-of-anthos-balancereader
