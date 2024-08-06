@@ -3,7 +3,8 @@ auth:
     username: USERNAME
     password: PASSWORD
 images:
-  nicolaka/netshoot: registry.cn-hangzhou.aliyuncs.com/synchub/nicolaka-netshoot
+  golang: registry.cn-hangzhou.aliyuncs.com/synchub/golang
+  #nicolaka/netshoot: registry.cn-hangzhou.aliyuncs.com/synchub/nicolaka-netshoot
   #apachesuperset.docker.scarf.sh/apache/superset: registry.cn-hangzhou.aliyuncs.com/synchub/apache-superset
   #docker.io/istio/examples-bookinfo-details-v1: registry.cn-hangzhou.aliyuncs.com/synchub/istio-examples-bookinfo-details-v1
   #docker.io/istio/examples-bookinfo-reviews-v1: registry.cn-hangzhou.aliyuncs.com/synchub/istio-examples-bookinfo-reviews-v1
