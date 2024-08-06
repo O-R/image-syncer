@@ -3,7 +3,8 @@ auth:
     username: USERNAME
     password: PASSWORD
 images:
-  golang: registry.cn-hangzhou.aliyuncs.com/synchub/golang
+  #golang: registry.cn-hangzhou.aliyuncs.com/synchub/golang
+  tdengine/tdengine: registry.cn-hangzhou.aliyuncs.com/synchub/tdengine
   #nicolaka/netshoot: registry.cn-hangzhou.aliyuncs.com/synchub/nicolaka-netshoot
   #apachesuperset.docker.scarf.sh/apache/superset: registry.cn-hangzhou.aliyuncs.com/synchub/apache-superset
   #docker.io/istio/examples-bookinfo-details-v1: registry.cn-hangzhou.aliyuncs.com/synchub/istio-examples-bookinfo-details-v1
