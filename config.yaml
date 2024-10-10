@@ -3,9 +3,9 @@ auth:
     username: USERNAME
     password: PASSWORD
 images:
+  public.ecr.aws/zinclabs/openobserve: registry.cn-hangzhou.aliyuncs.com/synchub/openobserve
   #golang: registry.cn-hangzhou.aliyuncs.com/synchub/golang
   #tdengine/tdengine: registry.cn-hangzhou.aliyuncs.com/synchub/tdengine
-  public.ecr.aws/zinclabs/openobserve: registry.cn-hangzhou.aliyuncs.com/synchub/openobserve
   #nicolaka/netshoot: registry.cn-hangzhou.aliyuncs.com/synchub/nicolaka-netshoot
   #apachesuperset.docker.scarf.sh/apache/superset: registry.cn-hangzhou.aliyuncs.com/synchub/apache-superset
   #docker.io/istio/examples-bookinfo-details-v1: registry.cn-hangzhou.aliyuncs.com/synchub/istio-examples-bookinfo-details-v1
