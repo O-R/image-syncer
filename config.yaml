@@ -3,7 +3,8 @@ auth:
     username: USERNAME
     password: PASSWORD
 images:
-  public.ecr.aws/zinclabs/openobserve: registry.cn-hangzhou.aliyuncs.com/synchub/openobserve
+  radial/busyboxplus: registry.cn-hangzhou.aliyuncs.com/synchub/busyboxplus
+  #public.ecr.aws/zinclabs/openobserve: registry.cn-hangzhou.aliyuncs.com/synchub/openobserve
   #golang: registry.cn-hangzhou.aliyuncs.com/synchub/golang
   #tdengine/tdengine: registry.cn-hangzhou.aliyuncs.com/synchub/tdengine
   #nicolaka/netshoot: registry.cn-hangzhou.aliyuncs.com/synchub/nicolaka-netshoot
