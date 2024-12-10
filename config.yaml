@@ -3,7 +3,8 @@ auth:
     username: USERNAME
     password: PASSWORD
 images:
-  registry-1.docker.io/bitnami/mongodb: registry.cn-hangzhou.aliyuncs.com/synchub/mongodb
+  emqx/emqx: registry.cn-hangzhou.aliyuncs.com/synchub/emqx
+  #registry-1.docker.io/bitnami/mongodb: registry.cn-hangzhou.aliyuncs.com/synchub/mongodb
   #oamdev/velaux: registry.cn-hangzhou.aliyuncs.com/synchub/oamdev-velaux
   #oamdev/vela-core: registry.cn-hangzhou.aliyuncs.com/synchub/oamdev-vela-core
   #oamdev/cluster-gateway: registry.cn-hangzhou.aliyuncs.com/synchub/oamdev-cluster-gateway
