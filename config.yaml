@@ -3,9 +3,9 @@ auth:
     username: USERNAME
     password: PASSWORD
 images:
-  bitnami/redis: registry.cn-hangzhou.aliyuncs.com/synchub/redis
-  docker.io/grafana/grafana: registry.cn-hangzhou.aliyuncs.com/synchub/grafana
+  #bitnami/redis: registry.cn-hangzhou.aliyuncs.com/synchub/redis
   whyour/qinglong: registry.cn-hangzhou.aliyuncs.com/synchub/qinglong
+  grafana/grafana: registry.cn-hangzhou.aliyuncs.com/synchub/grafana
   #pnnlmiscscripts/xmlstarlet: registry.cn-hangzhou.aliyuncs.com/synchub/xmlstarlet
   #emqx/emqx: registry.cn-hangzhou.aliyuncs.com/synchub/emqx
   #registry-1.docker.io/bitnami/mongodb: registry.cn-hangzhou.aliyuncs.com/synchub/mongodb
