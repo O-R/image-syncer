@@ -3,18 +3,18 @@ auth:
     username: USERNAME
     password: PASSWORD
 images:
+  oamdev/velaux: registry.cn-hangzhou.aliyuncs.com/synchub/oamdev-velaux
+  oamdev/vela-core: registry.cn-hangzhou.aliyuncs.com/synchub/oamdev-vela-core
+  oamdev/cluster-gateway: registry.cn-hangzhou.aliyuncs.com/synchub/oamdev-cluster-gateway
+  oamdev/hello-world: registry.cn-hangzhou.aliyuncs.com/synchub/oamdev-hello-world
+  oamdev/alpine-k8s: registry.cn-hangzhou.aliyuncs.com/synchub/oamdev-alpine-k8s
+  oamdev/kube-webhook-certgen: registry.cn-hangzhou.aliyuncs.com/synchub/oamdev-kube-webhook-certgen
   #bitnami/redis: registry.cn-hangzhou.aliyuncs.com/synchub/redis
-  whyour/qinglong: registry.cn-hangzhou.aliyuncs.com/synchub/qinglong
-  grafana/grafana: registry.cn-hangzhou.aliyuncs.com/synchub/grafana
+  #whyour/qinglong: registry.cn-hangzhou.aliyuncs.com/synchub/qinglong
+  #grafana/grafana: registry.cn-hangzhou.aliyuncs.com/synchub/grafana
   #pnnlmiscscripts/xmlstarlet: registry.cn-hangzhou.aliyuncs.com/synchub/xmlstarlet
   #emqx/emqx: registry.cn-hangzhou.aliyuncs.com/synchub/emqx
   #registry-1.docker.io/bitnami/mongodb: registry.cn-hangzhou.aliyuncs.com/synchub/mongodb
-  #oamdev/velaux: registry.cn-hangzhou.aliyuncs.com/synchub/oamdev-velaux
-  #oamdev/vela-core: registry.cn-hangzhou.aliyuncs.com/synchub/oamdev-vela-core
-  #oamdev/cluster-gateway: registry.cn-hangzhou.aliyuncs.com/synchub/oamdev-cluster-gateway
-  #oamdev/hello-world: registry.cn-hangzhou.aliyuncs.com/synchub/oamdev-hello-world
-  #oamdev/alpine-k8s: registry.cn-hangzhou.aliyuncs.com/synchub/oamdev-alpine-k8s
-  #oamdev/kube-webhook-certgen: registry.cn-hangzhou.aliyuncs.com/synchub/oamdev-kube-webhook-certgen
   #radial/busyboxplus: registry.cn-hangzhou.aliyuncs.com/synchub/busyboxplus
   #public.ecr.aws/zinclabs/openobserve: registry.cn-hangzhou.aliyuncs.com/synchub/openobserve
   #golang: registry.cn-hangzhou.aliyuncs.com/synchub/golang
