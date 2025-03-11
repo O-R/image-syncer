@@ -3,7 +3,8 @@ auth:
     username: USERNAME
     password: PASSWORD
 images:
-  oamdev/terraform-controller: registry.cn-hangzhou.aliyuncs.com/synchub/oamdev-terraform-controller
+  grafana/grafana:11.5.2,11.3.4: registry.cn-hangzhou.aliyuncs.com/synchub/grafana
+  #oamdev/terraform-controller: registry.cn-hangzhou.aliyuncs.com/synchub/oamdev-terraform-controller
   #fluxcd/helm-controller: registry.cn-hangzhou.aliyuncs.com/synchub/fluxcd-helm-controller
   #fluxcd/source-controller: registry.cn-hangzhou.aliyuncs.com/synchub/fluxcd-source-controller
   #fluxcd/image-automation-controller: registry.cn-hangzhou.aliyuncs.com/synchub/fluxcd-image-automation-controller
@@ -17,7 +18,6 @@ images:
   #oamdev/kube-webhook-certgen: registry.cn-hangzhou.aliyuncs.com/synchub/oamdev-kube-webhook-certgen
   #bitnami/redis: registry.cn-hangzhou.aliyuncs.com/synchub/redis
   #whyour/qinglong: registry.cn-hangzhou.aliyuncs.com/synchub/qinglong
-  #grafana/grafana: registry.cn-hangzhou.aliyuncs.com/synchub/grafana
   #pnnlmiscscripts/xmlstarlet: registry.cn-hangzhou.aliyuncs.com/synchub/xmlstarlet
   #emqx/emqx: registry.cn-hangzhou.aliyuncs.com/synchub/emqx
   #registry-1.docker.io/bitnami/mongodb: registry.cn-hangzhou.aliyuncs.com/synchub/mongodb
