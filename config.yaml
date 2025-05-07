@@ -1,9 +1,11 @@
 auth:
-  registry.cn-hangzhou.aliyuncs.com:
+  #registry.cn-hangzhou.aliyuncs.com:
+  registry.cn-guangzhou.aliyuncs.com:
     username: USERNAME
     password: PASSWORD
 images:
-  grafana/grafana:11.5.2,11.3.4: registry.cn-hangzhou.aliyuncs.com/synchub/grafana
+  node:20-alpine: registry.cn-guangzhou.aliyuncs.com/synchub/node
+  #grafana/grafana:11.5.2,11.3.4: registry.cn-hangzhou.aliyuncs.com/synchub/grafana
   #oamdev/terraform-controller: registry.cn-hangzhou.aliyuncs.com/synchub/oamdev-terraform-controller
   #fluxcd/helm-controller: registry.cn-hangzhou.aliyuncs.com/synchub/fluxcd-helm-controller
   #fluxcd/source-controller: registry.cn-hangzhou.aliyuncs.com/synchub/fluxcd-source-controller
