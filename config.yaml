@@ -4,7 +4,8 @@ auth:
     username: USERNAME
     password: PASSWORD
 images:
-  node:20-alpine: registry.cn-guangzhou.aliyuncs.com/synchub/node
+  nacos/nacos-server:2.0.6: registry.cn-guangzhou.aliyuncs.com/synchub/nacos
+  #node:20-alpine: registry.cn-guangzhou.aliyuncs.com/synchub/node
   #grafana/grafana:11.5.2,11.3.4: registry.cn-hangzhou.aliyuncs.com/synchub/grafana
   #oamdev/terraform-controller: registry.cn-hangzhou.aliyuncs.com/synchub/oamdev-terraform-controller
   #fluxcd/helm-controller: registry.cn-hangzhou.aliyuncs.com/synchub/fluxcd-helm-controller
