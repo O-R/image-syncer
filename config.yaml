@@ -4,7 +4,8 @@ auth:
     username: USERNAME
     password: PASSWORD
 images:
-  cylab/wrk2: registry.cn-guangzhou.aliyuncs.com/synchub/wrk2
+  ghcr.io/astral-sh/uv:python3.12-bookworm-slim: registry.cn-guangzhou.aliyuncs.com/synchub/uv:python3.12-bookworm-slim
+  #cylab/wrk2: registry.cn-guangzhou.aliyuncs.com/synchub/wrk2
   #nacos/nacos-server:2.0.6: registry.cn-guangzhou.aliyuncs.com/synchub/nacos
   #node:20-alpine: registry.cn-guangzhou.aliyuncs.com/synchub/node
   #grafana/grafana:11.5.2,11.3.4: registry.cn-hangzhou.aliyuncs.com/synchub/grafana
