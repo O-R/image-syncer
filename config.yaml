@@ -4,6 +4,7 @@ auth:
     username: USERNAME
     password: PASSWORD
 images:
+  node:22.12-alpine: registry.cn-guangzhou.aliyuncs.com/synchub/node
   python:3.10-slim-bookworm,3.12-slim-bookworm: registry.cn-guangzhou.aliyuncs.com/synchub/python
   ghcr.io/astral-sh/uv:python3.10-bookworm-slim,python3.12-bookworm-slim: registry.cn-guangzhou.aliyuncs.com/synchub/uv
   #cylab/wrk2: registry.cn-guangzhou.aliyuncs.com/synchub/wrk2
