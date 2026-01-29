@@ -4,8 +4,8 @@ auth:
     username: USERNAME
     password: PASSWORD
 images:
-  gcr.io/knative-releases/knative.dev/operator/cmd/webhook@sha256:d15e6252bd97addc9e79291296ee54ef5964abdb614d1d1bd6059c3a2c5187f6: registry.cn-guangzhou.aliyuncs.com/synchub/knative-operator-webhook
-  gcr.io/knative-releases/knative.dev/operator/cmd/operator@sha256:c5b8df8701106e7a14394809d9d96e5ab6a5b1fb54d5d8665623de18187eac2f: registry.cn-guangzhou.aliyuncs.com/synchub/knative-operator-operator
+  gcr.io/knative-releases/knative.dev/operator/cmd/webhook@sha256:d15e6252bd97addc9e79291296ee54ef5964abdb614d1d1bd6059c3a2c5187f6: registry.cn-guangzhou.aliyuncs.com/synchub/knative-operator-webhook:v1.20.1
+  gcr.io/knative-releases/knative.dev/operator/cmd/operator@sha256:c5b8df8701106e7a14394809d9d96e5ab6a5b1fb54d5d8665623de18187eac2f: registry.cn-guangzhou.aliyuncs.com/synchub/knative-operator-operator:v1.20.1
   gcr.io/distroless/static:nonroot: registry.cn-guangzhou.aliyuncs.com/synchub/static
   #golang:1.22: registry.cn-guangzhou.aliyuncs.com/synchub/golang
   #registry.k8s.io/kustomize/kustomize:v5.4.2: registry.cn-guangzhou.aliyuncs.com/synchub/kustomize:v5.4.2
