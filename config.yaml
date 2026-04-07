@@ -4,7 +4,8 @@ auth:
     username: USERNAME
     password: PASSWORD
 images:
-  debian:bookworm-slim: registry.cn-guangzhou.aliyuncs.com/synchub/debian:bookworm-slim
+  rockchin/langbot:v4.9.5: registry.cn-guangzhou.aliyuncs.com/synchub/langbot:v4.9.5
+  #debian:bookworm-slim: registry.cn-guangzhou.aliyuncs.com/synchub/debian:bookworm-slim
   #registry.k8s.io/node-problem-detector/node-problem-detector:v0.8.15: registry.cn-guangzhou.aliyuncs.com/synchub/node-problem-detector:v0.8.15
   #nginx:1.29.5-alpine: registry.cn-guangzhou.aliyuncs.com/synchub/nginx:1.29.5-alpine
   #gcr.io/knative-releases/knative.dev/operator/cmd/webhook@sha256:bd89f8126759428994055e438bffce5586388ca9159f6c3632a08a720bd9891f: registry.cn-guangzhou.aliyuncs.com/synchub/knative-operator-webhook:v1.21.0
