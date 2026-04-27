@@ -4,8 +4,9 @@ auth:
     username: USERNAME
     password: PASSWORD
 images:
+  mzz2017/v2raya:2.2.7.5: registry.cn-guangzhou.aliyuncs.com/synchub/v2raya
   #python:3.12-slim: registry.cn-guangzhou.aliyuncs.com/synchub/python
-  rockchin/langbot:v4.9.5,v4.5.4: registry.cn-guangzhou.aliyuncs.com/synchub/langbot
+  #rockchin/langbot:v4.9.5,v4.5.4: registry.cn-guangzhou.aliyuncs.com/synchub/langbot
   #debian:bookworm-slim: registry.cn-guangzhou.aliyuncs.com/synchub/debian:bookworm-slim
   #registry.k8s.io/node-problem-detector/node-problem-detector:v0.8.15: registry.cn-guangzhou.aliyuncs.com/synchub/node-problem-detector:v0.8.15
   #nginx:1.29.5-alpine: registry.cn-guangzhou.aliyuncs.com/synchub/nginx:1.29.5-alpine
