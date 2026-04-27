@@ -4,7 +4,7 @@ auth:
     username: USERNAME
     password: PASSWORD
 images:
-  mzz2017/v2raya:2.2.7.5: registry.cn-guangzhou.aliyuncs.com/synchub/v2raya
+  mzz2017/v2raya:v2.2.7.5: registry.cn-guangzhou.aliyuncs.com/synchub/v2raya
   #python:3.12-slim: registry.cn-guangzhou.aliyuncs.com/synchub/python
   #rockchin/langbot:v4.9.5,v4.5.4: registry.cn-guangzhou.aliyuncs.com/synchub/langbot
   #debian:bookworm-slim: registry.cn-guangzhou.aliyuncs.com/synchub/debian:bookworm-slim
