@@ -5,8 +5,8 @@ auth:
     password: PASSWORD
 images:
   docker.io/e2bdev/code-interpreter@sha256:5a0c5384a3feeb6865d5e69e99e2ef8498150ba81ccc8b46ee2ec4ceed738017: registry.cn-guangzhou.aliyuncs.com/synchub/e2b-code-interpreter:v0.0.1
-  #docker.io/e2bdev/desktop@sha256:828243bd78d003cd39f9d6d99fa1d1cb639d644304b72ff667f93f8100615b8c: registry.cn-guangzhou.aliyuncs.com/synchub/e2b-desktop
-  #docker.io/e2bdev/base@sha256:4a369f01a820fe5e65f53c2c5727a78899daf86f0541b721097f289559c8b73f: registry.cn-guangzhou.aliyuncs.com/synchub/e2b-base
+  docker.io/e2bdev/desktop@sha256:828243bd78d003cd39f9d6d99fa1d1cb639d644304b72ff667f93f8100615b8c: registry.cn-guangzhou.aliyuncs.com/synchub/e2b-desktop:v0.0.1
+  docker.io/e2bdev/base@sha256:4a369f01a820fe5e65f53c2c5727a78899daf86f0541b721097f289559c8b73f: registry.cn-guangzhou.aliyuncs.com/synchub/e2b-base:v0.0.1
   #mzz2017/v2raya:v2.2.7.5: registry.cn-guangzhou.aliyuncs.com/synchub/v2raya
   #python:3.12-slim: registry.cn-guangzhou.aliyuncs.com/synchub/python
   #rockchin/langbot:v4.9.5,v4.5.4: registry.cn-guangzhou.aliyuncs.com/synchub/langbot
